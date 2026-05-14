@@ -1,0 +1,1888 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026年6月20日（土）開催。第2回大村モルックカップの大会情報、アクセス、スケジュール、FAQを掲載しています。">
+  <title>第2回大村モルックカップ | 2026.6.20</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #fff8ef;
+      --surface: #ffffff;
+      --surface-alt: #f7f2e8;
+      --line: #e7dcc9;
+      --text: #24322c;
+      --muted: #5f6d66;
+      --brand: #2f6b4f;
+      --brand-deep: #1f4a37;
+      --wood: #8a6648;
+      --accent: #ff8a5b;
+      --accent-2: #ffd45c;
+      --accent-3: #69b7ff;
+      --accent-soft: #fff0dd;
+      --success: #e4f6e8;
+      --shadow: 0 18px 50px rgba(55, 52, 43, 0.09);
+      --radius-lg: 28px;
+      --radius-md: 20px;
+      --radius-sm: 14px;
+      --container: 1160px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: 'Noto Sans JP', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(255, 138, 91, 0.16), transparent 26%),
+        radial-gradient(circle at 88% 8%, rgba(105, 183, 255, 0.16), transparent 28%),
+        radial-gradient(circle at 12% 72%, rgba(255, 212, 92, 0.14), transparent 24%),
+        var(--bg);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+      padding-bottom: 108px;
+    }
+
+    img { max-width: 100%; display: block; }
+    a { color: inherit; }
+
+    .container {
+      width: min(var(--container), calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    .section {
+      padding: 88px 0;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--brand);
+      margin-bottom: 14px;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 30px;
+      height: 1px;
+      background: currentColor;
+      opacity: 0.45;
+    }
+
+    .section-head {
+      max-width: 760px;
+      margin-bottom: 36px;
+    }
+
+    .section-title {
+      margin: 0;
+      font-size: clamp(1.9rem, 4vw, 3rem);
+      line-height: 1.18;
+      font-weight: 900;
+      letter-spacing: -0.02em;
+    }
+
+    .section-lead {
+      margin: 14px 0 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    header.site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(16px);
+      background: rgba(255, 248, 239, 0.82);
+      border-bottom: 1px solid rgba(138, 102, 72, 0.10);
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      min-height: 78px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      min-width: 0;
+      text-decoration: none;
+    }
+
+    .brand-mark {
+      width: 50px;
+      height: 50px;
+      border-radius: 16px;
+      background: linear-gradient(135deg, var(--brand), var(--brand-deep));
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+      box-shadow: 0 8px 20px rgba(37, 75, 58, 0.18);
+      flex-shrink: 0;
+    }
+
+    .brand-mark img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      padding: 6px;
+      background: white;
+    }
+
+    .brand-text {
+      min-width: 0;
+    }
+
+    .brand-sub {
+      font-size: 10px;
+      letter-spacing: 0.16em;
+      color: var(--muted);
+      text-transform: uppercase;
+      margin-bottom: 2px;
+      font-weight: 700;
+    }
+
+    .brand-title {
+      font-size: 16px;
+      font-weight: 900;
+      color: var(--brand-deep);
+      line-height: 1.25;
+      white-space: nowrap;
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .nav a {
+      text-decoration: none;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .nav a:hover { color: var(--brand); }
+
+    .btn,
+    .btn-secondary,
+    .btn-tertiary {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      border-radius: 999px;
+      text-decoration: none;
+      transition: transform .2s ease, box-shadow .2s ease, background .2s ease, border-color .2s ease;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+
+    .btn {
+      background: linear-gradient(135deg, var(--accent), #ff6f61);
+      color: white;
+      font-weight: 800;
+      padding: 15px 24px;
+      box-shadow: 0 14px 28px rgba(255, 138, 91, 0.26);
+    }
+
+    .btn:hover,
+    .btn-secondary:hover,
+    .btn-tertiary:hover {
+      transform: translateY(-1px);
+    }
+
+    .btn-secondary {
+      border: 1px solid rgba(105, 183, 255, 0.22);
+      color: var(--brand-deep);
+      background: rgba(255, 255, 255, 0.92);
+      padding: 14px 22px;
+      font-weight: 700;
+      box-shadow: 0 10px 20px rgba(105, 183, 255, 0.10);
+    }
+
+    .btn-tertiary {
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      color: white;
+      background: rgba(255,255,255,0.12);
+      padding: 14px 22px;
+      font-weight: 700;
+    }
+
+    .icon {
+      width: 18px;
+      height: 18px;
+      flex-shrink: 0;
+    }
+
+    .hero {
+      padding: 54px 0 74px;
+    }
+
+    .hero-shell {
+      display: grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(320px, 0.9fr);
+      gap: 28px;
+      align-items: stretch;
+    }
+
+    .hero-copy,
+    .hero-media {
+      background: rgba(255,255,255,0.86);
+      border: 1px solid rgba(138,102,72,0.10);
+      border-radius: 32px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .hero-copy {
+      padding: 42px;
+      position: relative;
+      background:
+        linear-gradient(135deg, rgba(255,255,255,0.92), rgba(255,248,239,0.94) 60%, rgba(255,238,244,0.92));
+    }
+
+    .hero-copy::after {
+      content: "";
+      position: absolute;
+      width: 260px;
+      height: 260px;
+      right: -72px;
+      top: -72px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(255,138,91,0.22), rgba(255,138,91,0));
+      pointer-events: none;
+    }
+
+    .hero-kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, rgba(255,212,92,0.9), rgba(255,240,221,0.95));
+      color: #7c5429;
+      padding: 8px 14px;
+      font-size: 13px;
+      font-weight: 800;
+      margin-bottom: 20px;
+      box-shadow: 0 8px 18px rgba(255, 212, 92, 0.18);
+    }
+
+    .hero-title {
+      margin: 0;
+      font-size: clamp(2rem, 5vw, 4rem);
+      line-height: 1.04;
+      letter-spacing: -0.04em;
+      font-weight: 900;
+      color: var(--brand-deep);
+    }
+
+    .hero-title small {
+      display: block;
+      margin-top: 10px;
+      font-size: clamp(1rem, 2vw, 1.3rem);
+      letter-spacing: 0.08em;
+      color: var(--wood);
+      font-weight: 700;
+    }
+
+    .hero-lead {
+      margin: 22px 0 28px;
+      font-size: 16px;
+      color: var(--muted);
+      max-width: 60ch;
+    }
+
+    .hero-copy::before {
+      content: "";
+      position: absolute;
+      inset: auto auto 24px 24px;
+      width: 84px;
+      height: 84px;
+      border-radius: 22px;
+      background: linear-gradient(135deg, rgba(105,183,255,0.15), rgba(255,212,92,0.16));
+      transform: rotate(-8deg);
+      pointer-events: none;
+    }
+
+    .hero-meta {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      margin-bottom: 26px;
+    }
+
+    .meta-card {
+      background: var(--surface);
+      border: 1px solid rgba(125,100,72,0.12);
+      border-radius: 20px;
+      padding: 16px 18px;
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+    }
+
+    .meta-icon,
+    .feature-icon,
+    .info-icon,
+    .archive-icon,
+    .gallery-placeholder-icon,
+    .notice-icon,
+    .contact-icon,
+    .faq-badge {
+      width: 44px;
+      height: 44px;
+      border-radius: 14px;
+      display: grid;
+      place-items: center;
+      background: linear-gradient(135deg, rgba(255,212,92,0.22), rgba(105,183,255,0.14));
+      color: var(--brand);
+      flex-shrink: 0;
+    }
+
+    .meta-card strong,
+    .info-card strong,
+    .access-point strong {
+      display: block;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 4px;
+    }
+
+    .meta-card span,
+    .info-card span,
+    .access-point span {
+      display: block;
+      font-weight: 800;
+      font-size: 15px;
+      line-height: 1.5;
+      color: var(--text);
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 26px;
+    }
+
+    .hero-note {
+      border-top: 1px solid rgba(138,102,72,0.14);
+      padding-top: 18px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .hero-summary {
+      display: grid;
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .hero-summary .panel {
+      padding: 18px 20px;
+      border-radius: 22px;
+      box-shadow: none;
+      background: rgba(255,255,255,0.78);
+    }
+
+    .hero-media {
+      position: relative;
+      min-height: 100%;
+      background: linear-gradient(180deg, rgba(105,183,255,0.10), rgba(255,212,92,0.18));
+      display: grid;
+      grid-template-rows: 1fr auto;
+    }
+
+    .hero-photo {
+      min-height: 520px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .hero-photo::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(24,53,40,0.08) 0%, rgba(24,53,40,0.36) 100%);
+    }
+
+    .hero-panel {
+      position: absolute;
+      left: 20px;
+      right: 20px;
+      bottom: 20px;
+      z-index: 1;
+      background: rgba(255,255,255,0.94);
+      border-radius: 24px;
+      padding: 18px;
+      border: 1px solid rgba(138,102,72,0.10);
+      box-shadow: 0 12px 28px rgba(31,39,35,0.12);
+    }
+
+    .hero-panel-title {
+      margin: 0 0 6px;
+      font-size: 14px;
+      font-weight: 900;
+      color: var(--brand-deep);
+    }
+
+    .hero-panel-text {
+      margin: 0;
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.8;
+    }
+
+    .countdown {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0,1fr));
+      gap: 12px;
+      padding: 20px;
+      border-top: 1px solid rgba(138,102,72,0.10);
+      background: linear-gradient(135deg, rgba(255,244,224,0.95), rgba(239,247,255,0.95));
+    }
+
+    .countdown-card {
+      background: rgba(255,255,255,0.96);
+      border-radius: 18px;
+      padding: 16px 12px;
+      text-align: center;
+      border: 1px solid rgba(138,102,72,0.08);
+      box-shadow: 0 10px 18px rgba(105,183,255,0.08);
+    }
+
+    .countdown-number {
+      font-size: clamp(1.8rem, 4vw, 2.4rem);
+      font-weight: 900;
+      line-height: 1;
+      color: var(--accent);
+      letter-spacing: -0.04em;
+    }
+
+    .countdown-label {
+      margin-top: 6px;
+      font-size: 12px;
+      font-weight: 800;
+      color: var(--muted);
+      letter-spacing: 0.08em;
+    }
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0,1fr));
+      gap: 18px;
+    }
+
+    .info-card {
+      background: rgba(255,255,255,0.92);
+      border-radius: 24px;
+      padding: 22px;
+      border: 1px solid rgba(138,102,72,0.09);
+      box-shadow: var(--shadow);
+    }
+
+    .info-card:nth-child(1) { background: linear-gradient(180deg, rgba(255,244,224,0.98), rgba(255,255,255,0.98)); }
+    .info-card:nth-child(2) { background: linear-gradient(180deg, rgba(239,247,255,0.98), rgba(255,255,255,0.98)); }
+    .info-card:nth-child(3) { background: linear-gradient(180deg, rgba(231,247,237,0.98), rgba(255,255,255,0.98)); }
+    .info-card:nth-child(4) { background: linear-gradient(180deg, rgba(255,239,232,0.98), rgba(255,255,255,0.98)); }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+      gap: 28px;
+      align-items: center;
+      margin-bottom: 28px;
+    }
+
+    .about-photo {
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      min-height: 480px;
+      box-shadow: var(--shadow);
+      background: #d9ddd7;
+    }
+
+    .about-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center top;
+    }
+
+    .about-card {
+      background: linear-gradient(135deg, rgba(255,255,255,0.96), rgba(255,244,224,0.74));
+      border: 1px solid rgba(138,102,72,0.10);
+      border-radius: var(--radius-lg);
+      padding: 34px;
+      box-shadow: var(--shadow);
+    }
+
+    .about-card h3 {
+      margin: 0 0 16px;
+      font-size: 1.5rem;
+      line-height: 1.35;
+      color: var(--brand-deep);
+    }
+
+    .about-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .about-card p + p { margin-top: 14px; }
+
+    .about-card strong {
+      color: var(--brand);
+      font-weight: 900;
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0,1fr));
+      gap: 18px;
+    }
+
+    .feature-card {
+      position: relative;
+      overflow: hidden;
+      background: rgba(255,255,255,0.9);
+      border-radius: 24px;
+      padding: 24px;
+      border: 1px solid rgba(138,102,72,0.08);
+      box-shadow: var(--shadow);
+    }
+
+    .feature-card::before {
+      content: "";
+      position: absolute;
+      inset: 0 auto auto 0;
+      width: 100%;
+      height: 6px;
+      background: linear-gradient(90deg, var(--accent), var(--accent-2));
+    }
+
+    .feature-card:nth-child(2)::before { background: linear-gradient(90deg, var(--accent-3), #6dd5c7); }
+    .feature-card:nth-child(3)::before { background: linear-gradient(90deg, #ff9bb4, var(--accent)); }
+    .feature-card:nth-child(1) .feature-icon { background: linear-gradient(135deg, rgba(255,212,92,0.26), rgba(255,240,221,0.92)); }
+    .feature-card:nth-child(2) .feature-icon { background: linear-gradient(135deg, rgba(105,183,255,0.22), rgba(228,247,255,0.94)); }
+    .feature-card:nth-child(3) .feature-icon { background: linear-gradient(135deg, rgba(255,155,180,0.22), rgba(255,239,232,0.94)); }
+
+    .feature-card h4 {
+      margin: 18px 0 8px;
+      font-size: 18px;
+      line-height: 1.4;
+      color: var(--brand-deep);
+    }
+
+    .feature-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .feature-card:hover,
+    .info-card:hover,
+    .gallery-card:hover,
+    .archive-card:hover {
+      transform: translateY(-3px);
+      transition: transform .2s ease, box-shadow .2s ease;
+      box-shadow: 0 20px 42px rgba(55, 52, 43, 0.12);
+    }
+
+    #details,
+    #gallery {
+      position: relative;
+    }
+
+    #details::before,
+    #gallery::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(255,255,255,0), rgba(255,255,255,0.08));
+      pointer-events: none;
+    }
+
+    .details-wrap {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 24px;
+      align-items: start;
+    }
+
+    .stack {
+      display: grid;
+      gap: 16px;
+    }
+
+    .notice,
+    .panel,
+    .archive-card,
+    .faq-item,
+    .access-card,
+    .gallery-card,
+    .cta-panel {
+      background: rgba(255,255,255,0.9);
+      border: 1px solid rgba(138,102,72,0.09);
+      border-radius: 28px;
+      box-shadow: var(--shadow);
+    }
+
+    .notice,
+    .panel,
+    .cta-panel { padding: 24px; }
+
+    .panel {
+      background: linear-gradient(135deg, rgba(255,255,255,0.97), rgba(247,250,255,0.94));
+    }
+
+    .notice {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+      background: linear-gradient(135deg, rgba(255,245,214,0.98), rgba(255,238,244,0.94));
+    }
+
+    .notice h3,
+    .panel h3,
+    .cta-panel h3,
+    .access-body h3 {
+      margin: 0 0 8px;
+      font-size: 18px;
+      color: var(--brand-deep);
+    }
+
+    .notice p,
+    .panel p,
+    .cta-panel p,
+    .access-body p { margin: 0; color: var(--muted); font-size: 14px; }
+
+    .timeline {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      position: relative;
+    }
+
+    .timeline::before {
+      content: "";
+      position: absolute;
+      top: 8px;
+      bottom: 8px;
+      left: 84px;
+      width: 1px;
+      background: rgba(37,75,58,0.16);
+    }
+
+    .timeline li {
+      position: relative;
+      display: grid;
+      grid-template-columns: 72px 1fr;
+      gap: 28px;
+      padding: 0 0 28px;
+    }
+
+    .timeline li:last-child { padding-bottom: 0; }
+
+    .timeline time {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 38px;
+      font-weight: 900;
+      font-size: 20px;
+      color: #7c5429;
+      background: linear-gradient(135deg, rgba(255,212,92,0.88), rgba(255,240,221,0.98));
+      border-radius: 14px;
+      z-index: 1;
+      box-shadow: 0 8px 16px rgba(255, 212, 92, 0.18);
+    }
+
+    .timeline-card {
+      padding: 18px 20px;
+      background: rgba(255,255,255,0.94);
+      border-radius: 20px;
+      border: 1px solid rgba(138,102,72,0.08);
+    }
+
+    .timeline-card h4 {
+      margin: 0 0 4px;
+      font-size: 16px;
+      color: var(--brand-deep);
+    }
+
+    .timeline-card p {
+      margin: 0;
+      font-size: 14px;
+      color: var(--muted);
+    }
+
+    .schedule-note {
+      margin-top: 18px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .access-card {
+      overflow: hidden;
+    }
+
+    .access-grid {
+      display: grid;
+      grid-template-columns: 0.92fr 1.08fr;
+    }
+
+    .access-body {
+      padding: 28px;
+    }
+
+    .access-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border-radius: 999px;
+      background: var(--surface-alt);
+      color: var(--wood);
+      padding: 8px 12px;
+      font-size: 12px;
+      font-weight: 800;
+      margin-bottom: 14px;
+    }
+
+    .address {
+      font-size: 15px;
+      font-weight: 800;
+      color: var(--text);
+      line-height: 1.7;
+      margin-bottom: 18px;
+    }
+
+    .access-points {
+      display: grid;
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .access-point {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      padding: 16px;
+      border-radius: 20px;
+      background: linear-gradient(135deg, rgba(255,244,224,0.82), rgba(239,247,255,0.82));
+    }
+
+    .map {
+      min-height: 100%;
+      background: #e4e0d8;
+    }
+
+    .map iframe {
+      width: 100%;
+      height: 100%;
+      min-height: 420px;
+      border: 0;
+      display: block;
+    }
+
+    .provisional {
+      margin-top: 18px;
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      padding: 18px 20px;
+      border-radius: 22px;
+      background: linear-gradient(135deg, rgba(255,245,214,0.95), rgba(255,232,222,0.95));
+      border: 1px solid rgba(255,138,91,0.14);
+      color: var(--wood);
+      font-size: 14px;
+    }
+
+    .archive-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0,1fr));
+      gap: 20px;
+    }
+
+    .archive-card {
+      overflow: hidden;
+    }
+
+    .archive-head {
+      padding: 26px 26px 18px;
+      background: linear-gradient(135deg, #ff8a5b, #ff6f61 60%, #ffb347);
+      color: white;
+      position: relative;
+      min-height: 180px;
+    }
+
+    .archive-card.secondary .archive-head {
+      background: linear-gradient(135deg, #2f6b4f, #2b7f74 65%, #69b7ff);
+    }
+
+    .archive-index {
+      position: absolute;
+      right: 22px;
+      bottom: 10px;
+      font-size: 76px;
+      line-height: 1;
+      font-weight: 900;
+      opacity: 0.12;
+      letter-spacing: -0.06em;
+    }
+
+    .archive-status {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.18);
+      backdrop-filter: blur(10px);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .archive-head h3 {
+      margin: 18px 0 8px;
+      font-size: 26px;
+      line-height: 1.2;
+    }
+
+    .archive-head p { margin: 0; font-size: 14px; color: rgba(255,255,255,0.82); }
+
+    .archive-body {
+      padding: 24px 26px 26px;
+    }
+
+    .archive-links {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 18px;
+    }
+
+    .chip-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+      border-radius: 999px;
+      padding: 11px 16px;
+      font-size: 14px;
+      font-weight: 800;
+      border: 1px solid rgba(105,183,255,0.18);
+      background: rgba(247,250,255,0.92);
+      color: var(--brand);
+    }
+
+    .chip-link.strong {
+      background: linear-gradient(135deg, var(--accent), #ff6f61);
+      color: white;
+      border-color: transparent;
+    }
+
+    .report-button {
+      width: 100%;
+      margin-top: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 16px 0 0;
+      background: none;
+      border: 0;
+      border-top: 1px solid rgba(125,100,72,0.14);
+      color: var(--brand);
+      font: inherit;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    .report-button svg { transition: transform .2s ease; }
+    .report-button.open svg { transform: rotate(180deg); }
+
+    .report-body {
+      display: none;
+      padding-top: 18px;
+    }
+
+    .report-body.open { display: block; }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0,1fr));
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .stat {
+      padding: 16px;
+      border-radius: 18px;
+      background: linear-gradient(135deg, rgba(255,244,224,0.92), rgba(239,247,255,0.92));
+      text-align: center;
+    }
+
+    .stat strong {
+      display: block;
+      font-size: 26px;
+      font-weight: 900;
+      line-height: 1.1;
+      color: var(--brand-deep);
+    }
+
+    .stat span {
+      display: block;
+      margin-top: 6px;
+      font-size: 12px;
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0,1fr));
+      gap: 18px;
+    }
+
+    .gallery-card {
+      overflow: hidden;
+      min-height: 280px;
+      background: rgba(255,255,255,0.84);
+    }
+
+    .gallery-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .gallery-placeholder {
+      height: 100%;
+      min-height: 280px;
+      display: grid;
+      place-items: center;
+      text-align: center;
+      padding: 24px;
+      color: var(--muted);
+      background:
+        linear-gradient(180deg, rgba(255,255,255,0.9), rgba(255,244,224,0.84)),
+        repeating-linear-gradient(45deg, rgba(255,138,91,0.05) 0, rgba(255,138,91,0.05) 10px, transparent 10px, transparent 20px);
+    }
+
+    .gallery-placeholder h3 {
+      margin: 14px 0 4px;
+      font-size: 18px;
+      color: var(--brand-deep);
+    }
+
+    .gallery-placeholder p { margin: 0; font-size: 14px; }
+
+    .faq-list {
+      display: grid;
+      gap: 14px;
+    }
+
+    .faq-item {
+      padding: 0 24px;
+      overflow: hidden;
+      background: linear-gradient(135deg, rgba(255,255,255,0.95), rgba(247,250,255,0.92));
+    }
+
+    .faq-question {
+      width: 100%;
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      justify-content: space-between;
+      background: none;
+      border: 0;
+      cursor: pointer;
+      text-align: left;
+      padding: 22px 0;
+      color: var(--text);
+      font: inherit;
+    }
+
+    .faq-left {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      min-width: 0;
+    }
+
+    .faq-badge {
+      width: 38px;
+      height: 38px;
+      border-radius: 12px;
+      font-size: 12px;
+      font-weight: 900;
+      letter-spacing: 0.08em;
+    }
+
+    .faq-title {
+      font-size: 16px;
+      font-weight: 800;
+      color: var(--brand-deep);
+      line-height: 1.5;
+    }
+
+    .faq-arrow {
+      flex-shrink: 0;
+      transition: transform .2s ease;
+      color: var(--muted);
+    }
+
+    .faq-item.open .faq-arrow { transform: rotate(180deg); }
+
+    .faq-answer {
+      display: none;
+      padding: 0 0 22px 52px;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.9;
+    }
+
+    .faq-item.open .faq-answer { display: block; }
+
+    .cta-panel {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 24px;
+      padding: 30px;
+      background: linear-gradient(135deg, #2f6b4f 0%, #2b7f74 48%, #69b7ff 100%);
+      color: white;
+    }
+
+    .cta-panel h2 {
+      margin: 0 0 12px;
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      line-height: 1.18;
+    }
+
+    .cta-panel p {
+      color: rgba(255,255,255,0.78);
+      font-size: 15px;
+    }
+
+    .cta-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 22px;
+    }
+
+    .cta-contact {
+      background: rgba(255,255,255,0.14);
+      border: 1px solid rgba(255,255,255,0.18);
+      border-radius: 24px;
+      padding: 24px;
+    }
+
+    .cta-contact .label {
+      font-size: 12px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      font-weight: 800;
+      color: rgba(255,255,255,0.58);
+    }
+
+    .cta-contact .mail {
+      margin-top: 14px;
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 20px;
+      font-weight: 900;
+      color: white;
+      text-decoration: none;
+      word-break: break-all;
+    }
+
+    footer {
+      padding: 26px 0 40px;
+      color: var(--muted);
+      font-size: 13px;
+      background: linear-gradient(180deg, rgba(255,248,239,0), rgba(255,240,221,0.45));
+    }
+
+    .footer-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+      border-top: 1px solid rgba(125,100,72,0.12);
+      padding-top: 22px;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .footer-links a {
+      text-decoration: none;
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+
+    .floating-entry {
+      position: fixed;
+      right: 24px;
+      bottom: calc(20px + env(safe-area-inset-bottom, 0px));
+      z-index: 140;
+      display: inline-flex;
+      align-items: center;
+      gap: 14px;
+      min-width: 280px;
+      max-width: min(420px, calc(100vw - 32px));
+      padding: 14px 18px;
+      border-radius: 999px;
+      text-decoration: none;
+      color: white;
+      background: linear-gradient(135deg, #ff8a5b 0%, #ff6f61 52%, #ff5b8f 100%);
+      box-shadow: 0 18px 40px rgba(255, 111, 97, 0.28);
+      border: 1px solid rgba(255,255,255,0.38);
+      transition: transform .2s ease, box-shadow .2s ease, filter .2s ease;
+      overflow: hidden;
+    }
+
+    .floating-entry::before {
+      content: "";
+      position: absolute;
+      inset: 1px;
+      border-radius: inherit;
+      background: linear-gradient(135deg, rgba(255,255,255,0.18), rgba(255,255,255,0.02));
+      pointer-events: none;
+    }
+
+    .floating-entry:hover {
+      transform: translateY(-2px) scale(1.01);
+      box-shadow: 0 22px 48px rgba(255, 111, 97, 0.34);
+      filter: saturate(1.04);
+    }
+
+    .floating-entry-icon,
+    .floating-entry-copy,
+    .floating-entry-arrow {
+      position: relative;
+      z-index: 1;
+    }
+
+    .floating-entry-icon {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      background: rgba(255,255,255,0.18);
+      flex-shrink: 0;
+    }
+
+    .floating-entry-copy {
+      display: grid;
+      gap: 1px;
+      min-width: 0;
+    }
+
+    .floating-entry-label {
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      font-weight: 800;
+      opacity: 0.78;
+    }
+
+    .floating-entry-title {
+      font-size: 15px;
+      font-weight: 900;
+      line-height: 1.25;
+      white-space: nowrap;
+    }
+
+    .floating-entry-arrow {
+      margin-left: auto;
+      width: 18px;
+      height: 18px;
+      flex-shrink: 0;
+    }
+
+    @media (max-width: 1100px) {
+      .hero-shell,
+      .details-wrap,
+      .access-grid,
+      .cta-panel {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-photo { min-height: 420px; }
+      .map iframe { min-height: 360px; }
+    }
+
+    @media (max-width: 860px) {
+      .section { padding: 72px 0; }
+      .header-inner {
+        min-height: auto;
+        padding: 14px 0 12px;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 14px;
+      }
+      .brand { width: 100%; }
+      .nav {
+        display: flex;
+        width: 100%;
+        order: 3;
+        gap: 10px;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        overflow-x: auto;
+        padding-bottom: 4px;
+        scrollbar-width: none;
+        -webkit-overflow-scrolling: touch;
+      }
+      .nav::-webkit-scrollbar { display: none; }
+      .nav a {
+        flex: 0 0 auto;
+        font-size: 13px;
+        padding: 10px 14px;
+        border-radius: 999px;
+        background: rgba(255,255,255,0.92);
+        border: 1px solid rgba(138, 102, 72, 0.14);
+        color: var(--brand-deep);
+        box-shadow: 0 8px 20px rgba(55, 52, 43, 0.08);
+      }
+      .nav a.btn-secondary { display: none; }
+      .hero-copy { padding: 28px; }
+      .hero-meta,
+      .feature-grid,
+      .archive-grid,
+      .gallery-grid,
+      .info-grid,
+      .stats,
+      .about-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .timeline::before { left: 22px; }
+      .timeline li {
+        grid-template-columns: 1fr;
+        gap: 12px;
+        padding-left: 0;
+      }
+
+      .timeline time {
+        width: fit-content;
+        padding: 0 14px;
+      }
+
+      .floating-entry {
+        left: 12px;
+        right: 12px;
+        bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+        max-width: none;
+        min-width: 0;
+        padding: 13px 16px;
+      }
+
+      .faq-answer { padding-left: 0; }
+      .countdown { grid-template-columns: repeat(3, 1fr); }
+    }
+
+    @media (max-width: 560px) {
+      .container { width: min(var(--container), calc(100% - 24px)); }
+      body { padding-bottom: 96px; }
+      .hero { padding: 28px 0 56px; }
+      .hero-copy,
+      .hero-media,
+      .notice,
+      .panel,
+      .archive-card,
+      .faq-item,
+      .access-card,
+      .gallery-card,
+      .cta-panel,
+      .about-card,
+      .info-card,
+      .feature-card {
+        border-radius: 22px;
+      }
+
+      .hero-title { font-size: 2.2rem; }
+      .hero-actions,
+      .cta-actions { flex-direction: column; }
+      .btn,
+      .btn-secondary,
+      .btn-tertiary { width: 100%; }
+      .nav a,
+      .nav a.btn-secondary { width: auto; }
+      .hero-panel { left: 14px; right: 14px; bottom: 14px; }
+      .countdown { gap: 10px; padding: 14px; }
+      .countdown-card { padding: 14px 8px; }
+      .faq-item { padding: 0 18px; }
+      .cta-contact .mail { font-size: 17px; }
+      .footer-inner { align-items: flex-start; }
+      .floating-entry { gap: 12px; }
+      .floating-entry-icon { width: 38px; height: 38px; }
+      .floating-entry-title { font-size: 14px; white-space: normal; }
+      .floating-entry-label { font-size: 10px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top">
+        <span class="brand-mark">
+          <img src="uploads/omura-molkky-logo.png" alt="大村モルッククラブ ロゴ">
+        </span>
+        <span class="brand-text">
+          <span class="brand-sub">Omura Molkky Club</span>
+          <span class="brand-title">第2回 大村モルックカップ</span>
+        </span>
+      </a>
+      <nav class="nav" aria-label="ページ内ナビゲーション">
+        <a href="#about">大会について</a>
+        <a href="#schedule">スケジュール</a>
+        <a href="#access">アクセス</a>
+        <a href="#archive">過去開催</a>
+        <a href="#gallery">ギャラリー</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-shell">
+        <div class="hero-copy">
+          <div class="hero-kicker">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2v20M2 12h20" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><circle cx="12" cy="12" r="8" stroke="currentColor" stroke-width="1.7"/></svg>
+            2026年6月20日（土）開催
+          </div>
+          <h1 class="hero-title">第2回 大村モルックカップ<small>OMURA MOLKKY CUP 02</small></h1>
+          <p class="hero-lead">
+            大村で2回目となるモルックカップを開催します。初心者の方も、経験者の方も、
+            チームでの参加はもちろん個人参加も歓迎。みんなでわいわい盛り上がりながら、木の音と駆け引きを楽しむ一日にしましょう。
+          </p>
+
+          <div class="hero-meta">
+            <div class="meta-card">
+              <div class="meta-icon">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15.5" rx="2.5" stroke="currentColor" stroke-width="1.7"/><path d="M8 3.5v3M16 3.5v3M3.5 9.5h17" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+              </div>
+              <div>
+                <strong>Date</strong>
+                <span>2026年6月20日（土）<br>9時～13時</span>
+              </div>
+            </div>
+            <div class="meta-card">
+              <div class="meta-icon">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 20s6-5.2 6-10a6 6 0 1 0-12 0c0 4.8 6 10 6 10Z" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="10" r="2.4" stroke="currentColor" stroke-width="1.7"/></svg>
+              </div>
+              <div>
+                <strong>Place</strong>
+                <span>大村市総合運動公園<br>グラウンドゴルフ場（仮）</span>
+              </div>
+            </div>
+            <div class="meta-card">
+              <div class="meta-icon">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19v-1.2A3.8 3.8 0 0 1 8.8 14h3.4A3.8 3.8 0 0 1 16 17.8V19" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><circle cx="10.5" cy="9" r="3" stroke="currentColor" stroke-width="1.7"/><path d="M16.5 14.8a3.4 3.4 0 0 1 2.5 3.3V19M16.2 6.6a2.8 2.8 0 1 1 0 5.6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+              </div>
+              <div>
+                <strong>Team</strong>
+                <span>1チーム 3〜4名<br>チームメンバーが集まらない場合、個人での申し込みも可能です。その場合、主催側で当日マッチングします。</span>
+              </div>
+            </div>
+            <div class="meta-card">
+              <div class="meta-icon">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 7.5h16M6.5 4.5h11a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2h-11a2 2 0 0 1-2-2v-11a2 2 0 0 1 2-2Z" stroke="currentColor" stroke-width="1.7"/><path d="M8.5 13h7M8.5 16h4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+              </div>
+              <div>
+                <strong>Fee</strong>
+                <span>500円 / 1人<br>当日受付にてお支払い</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <a href="https://forms.gle/a1EKr4Y4cuYC539T9" target="_blank" rel="noopener" class="btn">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16M12 4l8 8-8 8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              参加申し込みはこちら
+            </a>
+            <a href="#overview" class="btn-secondary">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+              開催概要を見る
+            </a>
+          </div>
+
+          <div class="hero-note">
+            初心者大歓迎。当日はルール説明と練習時間を用意しています。モルック未経験の方も気軽にご参加ください。
+          </div>
+
+          <div class="hero-summary" id="overview">
+            <div class="notice">
+              <div class="notice-icon">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 8v5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1" fill="currentColor"/><path d="M10.2 3.8 3.4 17.2a2 2 0 0 0 1.8 2.9h13.6a2 2 0 0 0 1.8-2.9L13.8 3.8a2 2 0 0 0-3.6 0Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+              </div>
+              <div>
+                <h3>初心者大歓迎・当日ルール説明あり</h3>
+                <p>スタッフが丁寧にご説明します。モルックをやったことがない方でも、その場でルールを覚えて楽しめる大会です。</p>
+              </div>
+            </div>
+            <div class="panel">
+              <h3>お申し込み前の確認ポイント</h3>
+              <p>参加費は1人500円です。チーム人数は3〜4名を想定しています。チームメンバーが集まらない場合、個人での申し込みも可能です。その場合、主催側で当日マッチングします。</p>
+            </div>
+            <div class="panel">
+              <h3>大会当日の天候について</h3>
+              <p>小雨の場合は決行予定です。悪天候の場合は中止とし、当日午前7時までにお申込みメールアドレスへお知らせします。</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <div class="hero-photo">
+            <img src="uploads/LINE_ALBUM_素材写真_260312_89999.jpg" alt="モルックのピンが並ぶ様子">
+            <div class="hero-panel">
+              <h2 class="hero-panel-title">開催まであと</h2>
+              <p class="hero-panel-text">大会情報は確定し次第このページで順次更新します。会場・時間の最新情報も、こちらからまとめてご確認いただけます。</p>
+            </div>
+          </div>
+          <div class="countdown" id="countdown">
+            <div class="countdown-card">
+              <div class="countdown-number" id="cd-days">--</div>
+              <div class="countdown-label">DAYS</div>
+            </div>
+            <div class="countdown-card">
+              <div class="countdown-number" id="cd-hours">--</div>
+              <div class="countdown-label">HOURS</div>
+            </div>
+            <div class="countdown-card">
+              <div class="countdown-number" id="cd-minutes">--</div>
+              <div class="countdown-label">MINUTES</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">About Molkky</div>
+          <h2 class="section-title">モルックは、初めてでもちゃんと盛り上がれるスポーツです。</h2>
+          <p class="section-lead">ルールはシンプル、でも勝負は奥深い。初参加でも楽しみやすく、経験者は駆け引きにハマるのがモルックの魅力です。</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-photo">
+            <img src="uploads/LINE_ALBUM_素材写真_260312_2.jpg" alt="モルックを投げる参加者の様子">
+          </div>
+          <div class="about-card">
+            <h3>モルックって何？</h3>
+            <p>モルックはフィンランド発祥の屋外スポーツです。木製の投棒（モルック）を投げて、1〜12の数字が書かれた木のピン（スキットル）を倒します。</p>
+            <p>ちょうど<strong>50点</strong>にしたチームが勝利。50点を超えると<strong>25点に戻る</strong>ため、最後まで気が抜けません。</p>
+            <p>力よりも<strong>戦略と正確さ</strong>が勝負のカギ。年齢や経験を問わず、同じフィールドで盛り上がれる競技です。</p>
+          </div>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="feature-icon">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="8" r="3" stroke="currentColor" stroke-width="1.7"/><path d="M5.5 18.5a6.5 6.5 0 0 1 13 0" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+            </div>
+            <h4>誰でも参加しやすい</h4>
+            <p>年齢や体力に左右されにくく、当日のルール説明もあるため、初めての方でも入りやすい大会です。</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 18h16M6 15l3-4 3 2 4-6 2 3" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h4>ちょうど50点を狙う駆け引き</h4>
+            <p>狙う数字と順番の組み立てが勝敗を左右します。逆転も起こりやすく、最後まで展開が読めません。</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 12a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Zm10 0a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Z" stroke="currentColor" stroke-width="1.7"/><path d="M2.5 18a4.5 4.5 0 0 1 9 0M12.5 18a4.5 4.5 0 0 1 9 0" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+            </div>
+            <h4>チームで楽しめる</h4>
+            <p>3〜4人で協力しながら戦う形式を予定しています。相談しながら投げる時間も、モルックの面白さの一つです。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="schedule">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">Schedule</div>
+          <h2 class="section-title">タイムスケジュール（予定）</h2>
+          <p class="section-lead">受付から表彰まで、当日の流れがイメージしやすいように進行予定をまとめています。</p>
+        </div>
+
+        <div class="panel">
+          <ol class="timeline">
+            <li>
+              <time datetime="09:30">9:30</time>
+              <div class="timeline-card">
+                <h4>受付開始</h4>
+                <p>チェックイン・参加費のお支払いを行います。</p>
+              </div>
+            </li>
+            <li>
+              <time datetime="10:00">10:00</time>
+              <div class="timeline-card">
+                <h4>開会式・ルール説明・簡単練習タイム</h4>
+                <p>競技説明と組み合わせ発表を実施。初参加の方も安心して入れる練習時間を設けます。</p>
+              </div>
+            </li>
+            <li>
+              <time datetime="10:30">10:30</time>
+              <div class="timeline-card">
+                <h4>試合開始</h4>
+                <p>グループに分かれてリーグ戦を行います。熱戦にご期待ください。</p>
+              </div>
+            </li>
+            <li>
+              <time datetime="12:30">12:30</time>
+              <div class="timeline-card">
+                <h4>決勝</h4>
+                <p>上位チームによる決勝戦を行います。</p>
+              </div>
+            </li>
+            <li>
+              <time datetime="12:45">12:45</time>
+              <div class="timeline-card">
+                <h4>表彰式・閉会</h4>
+                <p>上位チームへの表彰と景品贈呈を予定しています。</p>
+              </div>
+            </li>
+          </ol>
+          <div class="schedule-note">※ スケジュールは変更になる場合があります。確定次第更新いたします。</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="access">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">Access</div>
+          <h2 class="section-title">アクセス</h2>
+          <p class="section-lead">開催予定地は第1回と同じ会場を想定しています。車・公共交通機関どちらでも来場しやすい立地です。</p>
+        </div>
+
+        <div class="access-card">
+          <div class="access-grid">
+            <div class="access-body">
+              <div class="access-label">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 20s6-5.2 6-10a6 6 0 1 0-12 0c0 4.8 6 10 6 10Z" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="10" r="2.4" stroke="currentColor" stroke-width="1.7"/></svg>
+                Venue Information
+              </div>
+              <h3>大村市総合運動公園 グラウンドゴルフ場</h3>
+              <div class="address">〒856-0808 長崎県大村市黒丸町5番1</div>
+
+              <div class="access-points">
+                <div class="access-point">
+                  <div class="meta-icon">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 15h12M7 18h10M5 12h14l-1.3-4.1A2 2 0 0 0 15.8 6H8.2a2 2 0 0 0-1.9 1.4L5 12Z" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><circle cx="8" cy="18" r="1.5" fill="currentColor"/><circle cx="16" cy="18" r="1.5" fill="currentColor"/></svg>
+                  </div>
+                  <div>
+                    <strong>By Car</strong>
+                    <span>駐車場あり（無料）<br>西九州自動車道 大村ICより約5分</span>
+                  </div>
+                </div>
+                <div class="access-point">
+                  <div class="meta-icon">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 17V9.8a2 2 0 0 1 1.2-1.8l3.9-1.7a2 2 0 0 1 1.8 0l3.9 1.7A2 2 0 0 1 18 9.8V17" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><path d="M4 17h16M9 12h.01M15 12h.01" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+                  </div>
+                  <div>
+                    <strong>By Public Transport</strong>
+                    <span>JR新大村駅・竹松駅・松原駅より<br>バス・タクシーをご利用ください</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="provisional">
+                <div class="notice-icon">
+                  <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 8v5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1" fill="currentColor"/><path d="M10.2 3.8 3.4 17.2a2 2 0 0 0 1.8 2.9h13.6a2 2 0 0 0 1.8-2.9L13.8 3.8a2 2 0 0 0-3.6 0Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+                </div>
+                <div>第一回と同じ大村市総合運動公園グラウンドゴルフ場を予定していますが、現在調整中です。確定次第このページを更新いたします。</div>
+              </div>
+            </div>
+            <div class="map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.681265870981!2d129.9325759!3d32.9594236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356aa6d0e71d7b23%3A0x324664aa11ddf126!2z5aSn5p2R5biC57eP5ZCI6YGL5YuV5YWs5ZyS5aSa55uu55qE5bqD5aC0!5e0!3m2!1sja!2sjp!4v1775483738840!5m2!1sja!2sjp"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="大村市総合運動公園 グラウンドゴルフ場 地図">
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="archive">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">Archive</div>
+          <h2 class="section-title">過去開催と、今回の大会</h2>
+        </div>
+
+        <div class="archive-grid">
+          <article class="archive-card secondary">
+            <div class="archive-head">
+              <div class="archive-status">開催済み</div>
+              <h3>第1回 大村モルックカップ</h3>
+              <p>2026年4月19日（日）<br>大村市総合運動公園 グラウンドゴルフ場</p>
+              <div class="archive-index">01</div>
+            </div>
+            <div class="archive-body">
+              <p>初開催にもかかわらず多くのチームにご参加いただきました。大会中はほとんど雨も降らず、盛大に盛り上がることができました。ありがとうございました。</p>
+              <div class="archive-links">
+                <a href="https://omura-molkky.pages.dev/" target="_blank" rel="noopener" class="chip-link strong">第1回大会LPを見る</a>
+              </div>
+              <button class="report-button" type="button" onclick="toggleReport(this)">
+                開催レポートを見る
+                <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+              <div class="report-body">
+                <p>2026年4月19日（日）、大村市総合運動公園グラウンドゴルフ場にて第1回大村モルックカップを開催しました。第2回もどうぞよろしくお願いします。</p>
+                <div class="stats">
+                  <div class="stat"><strong>7</strong><span>参加チーム</span></div>
+                  <div class="stat"><strong>20</strong><span>参加者数</span></div>
+                  <div class="stat"><strong>第1回</strong><span>記念大会</span></div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="archive-card">
+            <div class="archive-head">
+              <div class="archive-status">Current Page</div>
+              <h3>第2回 大村モルックカップ</h3>
+              <p>2026年6月20日（土）<br>大村市総合運動公園 グラウンドゴルフ場（仮）</p>
+              <div class="archive-index">02</div>
+            </div>
+            <div class="archive-body">
+              <p>現在ご覧いただいているページです。開催概要、アクセス、FAQなどをまとめています。内容が確定し次第、順次更新いたします。</p>
+              <div class="archive-links">
+                <a href="#entry" class="chip-link strong">参加申し込みはこちら</a>
+                <a href="#overview" class="chip-link">開催概要を見る</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="gallery">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">Photo Gallery</div>
+          <h2 class="section-title">大会の様子</h2>
+          <p class="section-lead">第1回開催時の雰囲気が伝わる写真と、これから追加予定のギャラリー枠を掲載しています。</p>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-card"><img src="uploads/hero.jpg" alt="モルック大会の様子1"></div>
+          <div class="gallery-card"><img src="uploads/throw.jpg" alt="モルック大会の様子2"></div>
+          <div class="gallery-card"><img src="uploads/S__802537479_0.jpg" alt="モルック大会の様子3"></div>
+          <div class="gallery-card"><img src="uploads/S__802537481_0.jpg" alt="モルック大会の様子4"></div>
+          <div class="gallery-card"><img src="uploads/S__802537484_0.jpg" alt="モルック大会の様子5"></div>
+          <div class="gallery-card"><img src="uploads/S__802537486_0.jpg" alt="モルック大会の様子6"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">FAQ</div>
+          <h2 class="section-title">よくある質問</h2>
+          <p class="section-lead">参加前によくある疑問をまとめています。未経験の方やお子様連れの方にも目を通していただきたい項目です。</p>
+        </div>
+
+        <div class="faq-list">
+          <article class="faq-item">
+            <button class="faq-question" type="button" onclick="toggleFaq(this.closest('.faq-item'))">
+              <span class="faq-left">
+                <span class="faq-badge">Q</span>
+                <span class="faq-title">モルックをやったことがなくても参加できますか？</span>
+              </span>
+              <svg class="faq-arrow icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <div class="faq-answer">もちろん大歓迎です。開会前に初心者向けの練習・ルール説明の時間を設けています。シンプルなルールなので、すぐに楽しめます。</div>
+          </article>
+
+          <article class="faq-item">
+            <button class="faq-question" type="button" onclick="toggleFaq(this.closest('.faq-item'))">
+              <span class="faq-left">
+                <span class="faq-badge">Q</span>
+                <span class="faq-title">道具（モルックセット）は持参が必要ですか？</span>
+              </span>
+              <svg class="faq-arrow icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <div class="faq-answer">大会運営側で用具を用意いたします。手ぶらでお越しください。マイモルック棒をお持ちいただいても構いません。</div>
+          </article>
+
+          <article class="faq-item">
+            <button class="faq-question" type="button" onclick="toggleFaq(this.closest('.faq-item'))">
+              <span class="faq-left">
+                <span class="faq-badge">Q</span>
+                <span class="faq-title">チームの人数は何人ですか？</span>
+              </span>
+              <svg class="faq-arrow icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <div class="faq-answer">3〜4名でのチームエントリーを予定しています。お一人の場合は当日チームを組める仕組みも検討中です。詳細は後日お知らせします。</div>
+          </article>
+
+          <article class="faq-item">
+            <button class="faq-question" type="button" onclick="toggleFaq(this.closest('.faq-item'))">
+              <span class="faq-left">
+                <span class="faq-badge">Q</span>
+                <span class="faq-title">子どもも参加できますか？</span>
+              </span>
+              <svg class="faq-arrow icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <div class="faq-answer">はい、参加可能です。お子様連れの方も大歓迎です。ただ、競技の進行がスムーズになるよう、プレー中は他の参加者への気配りをお願いできると助かります。</div>
+          </article>
+
+          <article class="faq-item">
+            <button class="faq-question" type="button" onclick="toggleFaq(this.closest('.faq-item'))">
+              <span class="faq-left">
+                <span class="faq-badge">Q</span>
+                <span class="faq-title">雨天の場合はどうなりますか？</span>
+              </span>
+              <svg class="faq-arrow icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <div class="faq-answer">小雨の場合は決行いたします。その場合は傘・かっぱなどをご用意ください。悪天候の場合は中止いたします。中止の場合は当日午前7時までにお申込みメールアドレスへお知らせいたします。</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="entry">
+      <div class="container">
+        <div class="cta-panel">
+          <div>
+            <div class="eyebrow" style="color: rgba(255,255,255,0.7);">Entry</div>
+            <h2>投げて、笑って、盛り上がる。<br>第2回大村モルックカップを開催します。</h2>
+            <p>チームでのご参加はもちろん、チームメンバーが集まらない場合は個人での申し込みも可能です。その場合、主催側で当日マッチングします。参加をご希望の方は、まずはフォームからお申し込みください。</p>
+            <div class="cta-actions">
+              <a href="https://forms.gle/a1EKr4Y4cuYC539T9" target="_blank" rel="noopener" class="btn" style="background:linear-gradient(135deg, #ffffff, #fff5de); color:var(--brand-deep); box-shadow:0 12px 24px rgba(31,74,55,0.12);">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16M12 4l8 8-8 8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                参加申し込みはこちら
+              </a>
+              <a href="#faq" class="btn-tertiary">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M9.1 9a3 3 0 1 1 4.9 2.3c-.8.7-1.3 1.1-1.3 2.2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="17.2" r="1" fill="currentColor"/></svg>
+                よくある質問を見る
+              </a>
+            </div>
+          </div>
+          <div class="cta-contact">
+            <div class="label">Contact</div>
+            <h3>お問い合わせはこちら</h3>
+            <p>参加方法や個人参加についてのお問い合わせは、下記メールアドレスへご連絡ください。</p>
+            <a href="mailto:sales@sisucast.com" class="mail">
+              <span class="contact-icon">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3.5" y="5" width="17" height="14" rx="2.5" stroke="currentColor" stroke-width="1.7"/><path d="M4.5 7l7.5 6 7.5-6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+              sales@sisucast.com
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <a href="https://forms.gle/a1EKr4Y4cuYC539T9" target="_blank" rel="noopener" class="floating-entry" aria-label="第2回大村モルックカップに申し込む">
+    <span class="floating-entry-icon" aria-hidden="true">
+      <svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M7 4.5h10a2.5 2.5 0 0 1 2.5 2.5v10A2.5 2.5 0 0 1 17 19.5H7A2.5 2.5 0 0 1 4.5 17V7A2.5 2.5 0 0 1 7 4.5Z" stroke="currentColor" stroke-width="1.8"/><path d="M8 9h8M8 12h8M8 15h5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+    </span>
+    <span class="floating-entry-copy">
+      <span class="floating-entry-label">ENTRY</span>
+      <span class="floating-entry-title">第2回大村モルックカップに申し込む</span>
+    </span>
+    <svg class="floating-entry-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </a>
+
+  <footer>
+    <div class="container footer-inner">
+      <div>© 2026 大村モルッククラブ</div>
+      <div class="footer-links">
+        <a href="https://omura-molkky.pages.dev/" target="_blank" rel="noopener">第1回大会LP</a>
+        <a href="#top">ページトップへ</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function updateCountdown() {
+      const target = new Date('2026-06-20T09:00:00+09:00').getTime();
+      const now = Date.now();
+      const diff = target - now;
+      if (diff <= 0) {
+        document.getElementById('cd-days').textContent = '0';
+        document.getElementById('cd-hours').textContent = '00';
+        document.getElementById('cd-minutes').textContent = '00';
+        return;
+      }
+      const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+      const minutes = Math.floor((diff / (1000 * 60)) % 60);
+      document.getElementById('cd-days').textContent = String(days);
+      document.getElementById('cd-hours').textContent = String(hours).padStart(2, '0');
+      document.getElementById('cd-minutes').textContent = String(minutes).padStart(2, '0');
+    }
+
+    function toggleFaq(item) {
+      item.classList.toggle('open');
+    }
+
+    function toggleReport(button) {
+      button.classList.toggle('open');
+      const body = button.nextElementSibling;
+      if (body) body.classList.toggle('open');
+    }
+
+    updateCountdown();
+    setInterval(updateCountdown, 10000);
+  </script>
+</body>
+</html>

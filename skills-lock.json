@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "skills": {
+    "Web Design Builder": {
+      "source": "rknall/claude-skills",
+      "sourceType": "github",
+      "computedHash": "7aa643537b66f88e3b80542e6e9d353e378b890fa7485a38b3a9c207b78fa7b1"
+    },
+    "better-icons": {
+      "source": "better-auth/better-icons",
+      "sourceType": "github",
+      "computedHash": "b16a2f5830f3db40695fdd58d415a631e9fb6170a0cc5d3b56469d17e53596bc"
+    },
+    "code-reviewer": {
+      "source": "shubhamsaboo/awesome-llm-apps",
+      "sourceType": "github",
+      "computedHash": "20cc3ad7431ddaa86a8560b65afde7ba016d14c37ddafa4eeb441e7fec77be1b"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "computedHash": "9e1c8b3103f92fa8092568a44fe64858de7c5c9dc65ce4bea8f168080e889cfd"
+    },
+    "firecrawl": {
+      "source": "firecrawl/cli",
+      "sourceType": "github",
+      "computedHash": "9d93a1e498ab4512f7080b12bd03fc82d98a6d06bfed67e7f8149ca5070b5fa7"
+    },
+    "frontend-design": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "computedHash": "516bd2154eb843a8240e43d5b285229129853114ad7075a5e141e1c08e408c84"
+    },
+    "remotion-best-practices": {
+      "source": "remotion-dev/skills",
+      "sourceType": "github",
+      "computedHash": "6f22ccc0dd7103de270a465b30e44b001bcee4751e43197bba60680e69928635"
+    },
+    "shadcn-ui": {
+      "source": "google-labs-code/stitch-skills",
+      "sourceType": "github",
+      "computedHash": "119a14a004bd30fa99d386df599bd0db8d057cca146f7ee08349daed48b2ea55"
+    },
+    "skill-creator": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "computedHash": "57f470f512f45bdac598e302bc72fd62bf2b649fc7fad032efe97720149cde4d"
+    },
+    "software-ui-ux-design": {
+      "source": "vasilyu1983/ai-agents-public",
+      "sourceType": "github",
+      "computedHash": "3ac6ab99df4a0569751f39d4efd152a2da94cc2a31e555e08efb553ecfc5d8af"
+    },
+    "suggest-lucide-icons": {
+      "source": "nweii/agent-stuff",
+      "sourceType": "github",
+      "computedHash": "a693a5622f55b45cc6cf4cb396f44ff75b86420f5f1373890daa44c884907e48"
+    },
+    "ui-design": {
+      "source": "mblode/agent-skills",
+      "sourceType": "github",
+      "computedHash": "f002af8cdf0a1d28fa9fb4fd33a0da96b1229aea544bdbc55f0fb2cbaf6ad907"
+    },
+    "ui-ux-pro-max": {
+      "source": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "sourceType": "github",
+      "computedHash": "6337038fe1fe6bbe1b9f252ab678ee575859190bab6f0f246f4061824eb40875"
+    },
+    "vercel-react-best-practices": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "computedHash": "43ca6c197f8ec13055079da7053232d477068b03ca443f9ac1bc819b95cdd432"
+    },
+    "web-design-guidelines": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "computedHash": "f3bc47f890f42a44db1007ab390709ec368e4b8c089baee6b0007182236ac474"
+    },
+    "webapp-testing": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "computedHash": "5a6a18c0137cfbabec058e86fc1c8f6919d846a7b2a34ee978cc8ced866ee2e5"
+    }
+  }
+}
